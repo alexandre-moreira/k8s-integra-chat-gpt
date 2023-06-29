@@ -22,12 +22,12 @@ docker login
 ```
 docker push usuarioDockerHub/imersao-chatservice:v1
 ``` 
-
 ## Gerar versão latest da imagem imersao-chatservice
-docker tag 4lexandremoreira/imersao-chatservice:v1 4lexandremoreira/imersao-chatservice:latest
-## Subir imagem chatservice para o docker hub
 ```
-docker push usuarioDockerHub/imersao-chatservice:v1
-
+docker tag usuarioDockerHub/imersao-chatservice:v1 usuarioDockerHub/imersao-chatservice:latest
+```
+## Subir imagem latest de chatservice para o docker hub
+```
+docker push usuarioDockerHub/imersao-chatservice:latest
 ```
 
