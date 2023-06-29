@@ -14,3 +14,8 @@ git clone https://github.com/KubeDev/idc-ms-chatgpt.git
 ```
 docker build -t usuarioDockerHub/imersao-chatservice:v1 .
 ```
+## Logar no docker hub
+```
+docker login
+```
+
